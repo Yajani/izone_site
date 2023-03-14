@@ -28,3 +28,52 @@ header {
     width: 100%;
     z-index: 99999;
 }
+
+header .inner-header {
+    /* background: orange; */
+    width: 92%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-weight: 700;
+    color: white;
+}
+
+header .inner-header .logo{
+    /* background: tomato; */
+    flex:1 ;
+}
+header .inner-header .logo a {
+    display: block;
+    width: 100%;
+}
+header .inner-header .logo a img {
+    height: 60px;
+}
+
+header .inner-header .intro-text {
+    /* background: greenyellow; */
+    flex: 4;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+header .inner-header .menu-open {
+    /* background: skyblue; */
+    flex: 1;
+    font-size: 16px;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .inner-header .menu-open .lnr-menu {
+    font-size: 33px;
+    margin-left: 15px;
+}
+
+
+
